@@ -26,7 +26,6 @@ const cosasQueAprendimos = [
 ];
 
 function main() {
-  // MI SOLUCION
   const queryEls = document.querySelectorAll(".lista li");
   setTimeout(() => {
     queryEls.forEach((el) => {
@@ -47,22 +46,6 @@ function main() {
       }
     });
   }, 3000);
-
-  // SOLUCION MARCE
-  // const listaEl = document.querySelector(".lista");
-  // const itemsEls = document.querySelectorAll(".lista li");
-
-  // for (let el of itemsEls) {
-  //   el.remove();
-  // }
-
-  // for (let item of cosasQueAprendimos) {
-  //   const newLiEl = document.createElement("li");
-  //   newLiEl.textContent = item.tema;
-  //   const laClaseQueLeVoyAAsginarAlLi = item.class || "item";
-  //   newLiEl.classList.add(laClaseQueLeVoyAAsginarAlLi);
-  //   listaEl.appendChild(newLiEl);
-  // }
 }
 
 main();
